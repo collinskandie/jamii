@@ -45,13 +45,13 @@ h6,
 /*** Gradient Text & BG ***/
 .text-primary-gradient {
     background: linear-gradient(to bottom right, var(--primary), var(--secondary));
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
 .text-secondary-gradient {
     background: linear-gradient(to bottom right, var(--secondary), var(--primary));
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
