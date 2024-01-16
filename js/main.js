@@ -101,10 +101,5 @@
 
 })(jQuery);
 
-// Get the current year
-var currentYear = new Date().getFullYear();
-
-// Update the content of the span with id "currentYear"
-document.getElementById('currentYear').innerText = currentYear;
 
 
